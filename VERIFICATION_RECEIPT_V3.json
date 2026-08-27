@@ -1,0 +1,145 @@
+{
+  "authority_boundary": "This receipt verifies a local case card. It cannot revive a claim, clear private-first, publish, mail, commit, or push.",
+  "case_id": "PHY-01",
+  "checks": {
+    "core_matches_live_ledger": "PASS",
+    "declared_source_hashes": "PASS",
+    "frozen_live_file_and_ledger": "PASS",
+    "governed_annotations": "PASS",
+    "live_g23_closeouts": "PASS_OR_NOT_APPLICABLE",
+    "private_first_public_gate": "NOT_TRIGGERED",
+    "semantic_continuity": "V1_ACCEPTED_UNCHANGED"
+  },
+  "claim_authority": "NONE",
+  "decision_reasons": [
+    "The case stayed byte-identical to its accepted V1 card and all current custody checks pass."
+  ],
+  "disposition": "POSTABLE_AS_COLD_CASE",
+  "public_catalog_eligible": true,
+  "receipt_sha256": "fe624b15bf47705256ad921a1b14e18c9ef3ea89eb3bdd969ae5d2cb5150a20f",
+  "route_id": "COLD_CASE_PIPELINE_CURRENT_INDEX_REVERIFICATION_V3",
+  "schema": "aletheia.cold-case-live-verification.v3",
+  "source_bindings": {
+    "case_file": "/Users/bo/data/adp/investigations/cold_case_sweep_2026-08-26/cases/COLD_CASE_PHY-01.md",
+    "case_file_sha256": "240ff7141ef40a434abe83cd52af5a2b5d7bc81b1997c10807fc5e562797f6e5",
+    "declared_sources": [
+      {
+        "declared_sha256": "6d04c4850f3d6d04f6d3f5afb3ec8b0f0892eb40a08ee8c59f69412062f11dc8",
+        "g23_currency": "CURRENT_PASS",
+        "g23_failures": [],
+        "hash_matches": true,
+        "observed_sha256": "6d04c4850f3d6d04f6d3f5afb3ec8b0f0892eb40a08ee8c59f69412062f11dc8",
+        "path": "/Users/bo/data/adp/investigations/physics_crack_day_2026-08-05/CXD01_nanograv_signal_concentration/RUN_LESSON_CLOSEOUT.json"
+      },
+      {
+        "declared_sha256": "a64bd34c0cf3d420c249480e8eeb25fb8a7d85bbd8217c504e56a8157f387ee8",
+        "g23_currency": "CURRENT_PASS",
+        "g23_failures": [],
+        "hash_matches": true,
+        "observed_sha256": "a64bd34c0cf3d420c249480e8eeb25fb8a7d85bbd8217c504e56a8157f387ee8",
+        "path": "/Users/bo/data/adp/investigations/physics_crack_day_2026-08-05/CXD02_icecube_hotspot_stability/RUN_LESSON_CLOSEOUT.json"
+      },
+      {
+        "declared_sha256": "d4ad9f40557a502e3a9e62530a23ed4073e43621aaa92c833d448acfe189a3dd",
+        "g23_currency": "CURRENT_PASS",
+        "g23_failures": [],
+        "hash_matches": true,
+        "observed_sha256": "d4ad9f40557a502e3a9e62530a23ed4073e43621aaa92c833d448acfe189a3dd",
+        "path": "/Users/bo/data/adp/investigations/physics_crack_day_2026-08-05/CXD03_desi_dark_energy_concentration/RUN_LESSON_CLOSEOUT.json"
+      },
+      {
+        "declared_sha256": "5d8d95e20624f191f0acedca972c81ba33fad5adc04b80a245230f42dc8632dc",
+        "g23_currency": "CURRENT_PASS",
+        "g23_failures": [],
+        "hash_matches": true,
+        "observed_sha256": "5d8d95e20624f191f0acedca972c81ba33fad5adc04b80a245230f42dc8632dc",
+        "path": "/Users/bo/data/adp/investigations/physics_crack_day_2026-08-05/CXD04_pantheon_shoes_grouped_leverage/RUN_LESSON_CLOSEOUT.json"
+      },
+      {
+        "declared_sha256": "55d6e520496bcb30e8797bb0fb41d77b55298c755209e11de7e6a63717837fba",
+        "g23_currency": "CURRENT_PASS",
+        "g23_failures": [],
+        "hash_matches": true,
+        "observed_sha256": "55d6e520496bcb30e8797bb0fb41d77b55298c755209e11de7e6a63717837fba",
+        "path": "/Users/bo/data/adp/investigations/physics_crack_day_2026-08-05/CXD05_fermi_gbm_selection_geometry/RUN_LESSON_CLOSEOUT.json"
+      },
+      {
+        "declared_sha256": "74ed6bc33fff0c3ae5adf0dc3fe88bb4b8bcdd27d5c5232e454a303fcc66fd0f",
+        "g23_currency": "CURRENT_PASS",
+        "g23_failures": [],
+        "hash_matches": true,
+        "observed_sha256": "74ed6bc33fff0c3ae5adf0dc3fe88bb4b8bcdd27d5c5232e454a303fcc66fd0f",
+        "path": "/Users/bo/data/adp/investigations/physics_crack_day_2026-08-05/CXD06_chime_repeater_sampling/RUN_LESSON_CLOSEOUT.json"
+      },
+      {
+        "declared_sha256": "e8c736df6b4052b6ae8c68156cde9b63d7cf5d432e6588df2b7e2163097c37fc",
+        "g23_currency": "CURRENT_PASS",
+        "g23_failures": [],
+        "hash_matches": true,
+        "observed_sha256": "e8c736df6b4052b6ae8c68156cde9b63d7cf5d432e6588df2b7e2163097c37fc",
+        "path": "/Users/bo/data/adp/investigations/physics_crack_day_2026-08-05/CXD07_dark_matter_low_energy_readiness/RUN_LESSON_CLOSEOUT.json"
+      },
+      {
+        "declared_sha256": "36c4c8beffe673494900376bec52d93166a63e4c418358edab6c9f38a74b22d0",
+        "g23_currency": "CURRENT_PASS",
+        "g23_failures": [],
+        "hash_matches": true,
+        "observed_sha256": "36c4c8beffe673494900376bec52d93166a63e4c418358edab6c9f38a74b22d0",
+        "path": "/Users/bo/data/adp/investigations/physics_crack_day_2026-08-05/CXD08_neutron_lifetime_family_fragility/RUN_LESSON_CLOSEOUT.json"
+      },
+      {
+        "declared_sha256": "ebb1fd167f9989b7385119962aacf77a2c1a5c2549837afcf58355ef29e2af53",
+        "g23_currency": "CURRENT_PASS",
+        "g23_failures": [],
+        "hash_matches": true,
+        "observed_sha256": "ebb1fd167f9989b7385119962aacf77a2c1a5c2549837afcf58355ef29e2af53",
+        "path": "/Users/bo/data/adp/investigations/physics_crack_day_2026-08-05/CXD09_proton_radius_lineage_fragility/RUN_LESSON_CLOSEOUT.json"
+      },
+      {
+        "declared_sha256": "231c6a320d3b836194ce552923eb5b777c8286571ad29d95d85c28119cfacb38",
+        "g23_currency": "CURRENT_PASS",
+        "g23_failures": [],
+        "hash_matches": true,
+        "observed_sha256": "231c6a320d3b836194ce552923eb5b777c8286571ad29d95d85c28119cfacb38",
+        "path": "/Users/bo/data/adp/investigations/physics_crack_day_2026-08-05/CXD10_jwst_massive_galaxy_tail/RUN_LESSON_CLOSEOUT.json"
+      },
+      {
+        "declared_sha256": "03588e0e4ba3d40fd9333d76309aae1e439ed9b7bbd5495bd5a3eb5184c8de91",
+        "g23_currency": "CURRENT_PASS",
+        "g23_failures": [],
+        "hash_matches": true,
+        "observed_sha256": "03588e0e4ba3d40fd9333d76309aae1e439ed9b7bbd5495bd5a3eb5184c8de91",
+        "path": "/Users/bo/data/adp/investigations/physics_crack_day_2026-08-05/CXD11_strong_lens_hubble_priors/RUN_LESSON_CLOSEOUT.json"
+      },
+      {
+        "declared_sha256": "f73b8d1693bc937809023d66114fcfa293e7e35912d8c5a2b6f031e3c8132f37",
+        "g23_currency": "CURRENT_PASS",
+        "g23_failures": [],
+        "hash_matches": true,
+        "observed_sha256": "f73b8d1693bc937809023d66114fcfa293e7e35912d8c5a2b6f031e3c8132f37",
+        "path": "/Users/bo/data/adp/investigations/physics_crack_day_2026-08-05/CXD12_muon_g2_dependency_structure/RUN_LESSON_CLOSEOUT.json"
+      },
+      {
+        "declared_sha256": "67330d39803e2ca0b4eb2c59da62d7e90b1eb37e8d778d612c2485f72f37ef42",
+        "g23_currency": "CURRENT_PASS",
+        "g23_failures": [],
+        "hash_matches": true,
+        "observed_sha256": "67330d39803e2ca0b4eb2c59da62d7e90b1eb37e8d778d612c2485f72f37ef42",
+        "path": "/Users/bo/data/adp/investigations/physics_crack_day_2026-08-05/RUN_LESSON_CLOSEOUT.json"
+      }
+    ],
+    "ledger": "/Users/bo/data/adp/investigations/cold_case_sweep_2026-08-26/COLD_CASE_LEDGER.csv",
+    "ledger_row_sha256": "1774ede267557149272be00d7bccfdb6a3c619f9bd4be52412abe9b48bb4b224",
+    "ledger_sha256": "43f656121adc1a155d92f579711f8d98f623876d7d1ed0a2c82019c140c28afe",
+    "semantic_adjudication": {
+      "path": "/Users/bo/data/adp/investigations/cold_case_pipeline_2026-08-26_v1/09_live_reverification/LIVE_EDIT_SEMANTIC_ADJUDICATION_V2.md",
+      "sha256": "858787a6d4dcd7b10913735756bf3646fa3e731f7071c84f956f54aba34efa9c"
+    },
+    "v1_final_receipt": {
+      "bytes": 2045,
+      "path": "/Users/bo/data/adp/investigations/cold_case_pipeline_2026-08-26_v1/02_case_verification_final/PHY-01.json",
+      "sha256": "628cc7eec4d306741fe7cb274010c4c95979ff67f85ee8ebd29ceb1178d95cc9"
+    }
+  },
+  "verdict": "ACCEPTED"
+}
